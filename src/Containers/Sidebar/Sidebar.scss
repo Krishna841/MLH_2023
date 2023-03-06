@@ -1,0 +1,27 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 632px;
+  background-color: #7868e6;
+  &_dashboard {
+    transform: translate(0px, 10px);
+  }
+  &_redirects {
+    transform: translate(0px, -200px);
+
+    &_software {
+      padding-bottom: 5px;
+    }
+    &_hardware {
+      padding-top: 5px;
+    }
+  }
+  &_wrapper {
+    &_logout {
+      padding-bottom: 10px;
+    }
+  }
+}
